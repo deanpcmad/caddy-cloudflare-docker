@@ -8,6 +8,8 @@ name: Docker
 on:
   push:
     branches: [ "main" ]
+  schedule:
+    - cron: '0 2 * * SUN'
 
 env:
   # Use docker.io for Docker Hub if empty
