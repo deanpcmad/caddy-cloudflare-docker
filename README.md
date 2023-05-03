@@ -31,5 +31,4 @@ mydomain.com {
     dns cloudflare TOKEN
   }
 }
-
 ```
