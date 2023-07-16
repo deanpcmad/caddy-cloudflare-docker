@@ -20,7 +20,6 @@ jobs:
       - uses: docker/build-push-action@v4
         with:
           push: true
-          target: "prod"
           platforms: linux/amd64,linux/arm64
           provenance: false
-          tags: ghcr.io/deanpcmad/buildtea:commit-${{ github.sha }},ghcr.io/deanpcmad/caddy-cloudflare-docker:latest
+          tags: ghcr.io/deanpcmad/caddy-cloudflare-docker:commit-${{ github.sha }},ghcr.io/deanpcmad/caddy-cloudflare-docker:latest
