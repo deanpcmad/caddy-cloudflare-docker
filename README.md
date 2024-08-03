@@ -6,7 +6,6 @@ Docker container for Caddy with built in Cloudflare for DNS validation
 
 ```yaml
 ---
-version: "3.4"
 services:
   caddy:
     image: ghcr.io/deanpcmad/caddy-cloudflare-docker:main
