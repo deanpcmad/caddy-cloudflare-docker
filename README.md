@@ -8,7 +8,7 @@ Docker container for Caddy with built in Cloudflare for DNS validation
 ---
 services:
   caddy:
-    image: ghcr.io/deanpcmad/caddy-cloudflare-docker:main
+    image: ghcr.io/deanpcmad/caddy-cloudflare-docker:latest
     container_name: caddy
     restart: unless-stopped
     ports:
